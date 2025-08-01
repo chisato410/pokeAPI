@@ -1,0 +1,26 @@
+.home {
+  text-align: center;
+  padding: 2rem;
+  font-family: "Arial", sans-serif;
+}
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.game-card {
+  background: #f3f3f3;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.game-card:hover {
+  transform: scale(1.05);
+  background: #e0f7fa;
+}
